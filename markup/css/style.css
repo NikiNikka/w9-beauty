@@ -180,7 +180,6 @@ h1,h2,h3 {
     max-width: 100%;
     width: 1920px;
     padding-bottom: 25px;
-    margin-bottom: -10px;
     border: none;
     text-align: left;
     background: #FFFFFF;
@@ -439,6 +438,7 @@ input {
 }
 
 a {
+    display: inline-block;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -452,9 +452,14 @@ a {
     
 a:hover {
     text-decoration: underline;
-    color: #ff7700;
+    color: #f454ef;
     transition: 0.3s;
+    cursor: grab;
+    font-style: italic;
 }
+
+
+
 
 .info-links {
     text-align: left;
@@ -490,15 +495,14 @@ li {
     display: inline-block;
     max-width: 100%;
     width: 1920px;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin: 10px 115px;
+    padding-right: 10px;
     background: #FFFFFF; 
-    display: inline-block;
-    margin: 0 auto;
 }
 
 .number1 {
     margin-top: 23px;
+    padding-left: 544px;
     float: right ;
 }
 
@@ -507,7 +511,6 @@ li {
     border-width: 2px;
     display: inline-block;
     float: right;
-    margin-right: 247px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -517,7 +520,7 @@ li {
     text-shadow: none;
     display: inline-block;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 49px;
     padding: 10px 60px;
     border-style: double ;
     border-color:  #dc3737;
@@ -540,14 +543,19 @@ li {
     margin: 0 auto;
     max-width: 100%;
     width: 1920px;
-    height: 50px;
     position: relative;
-    padding-top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #828282;
     background: #EFEFEF;
     padding-left: 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .privacy {
-    padding-left: 510px;
+    padding-left: 667px;
 }
