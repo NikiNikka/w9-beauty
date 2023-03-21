@@ -108,6 +108,12 @@ h1,h2,h3 {
 }
 
 .title-dok {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
     width: 1920px;
     margin: 0 auto;
     max-width:  100%;
@@ -115,6 +121,12 @@ h1,h2,h3 {
 }
 
  .header-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
     display: inline-block;
     width: 1920px;
     max-width:  100%;
@@ -154,6 +166,12 @@ h1,h2,h3 {
 }
 
 .menu-nav {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
     display: inline-block;
     width: 1920px;
     max-width:  100%;
@@ -185,6 +203,14 @@ h1,h2,h3 {
     background: #FFFFFF;
 }
 
+.section4 {
+    display: block;
+    max-width: 100%;
+    width: 1920px;
+    border: none;
+    text-align: left;
+    background:#E5E5E5
+}
 .footer {
     display: inline-block;
     margin: 0 auto;
@@ -195,18 +221,23 @@ h1,h2,h3 {
     background: #FFFFFF;
 }
 
-table, td, th {
+.table1 {
+/* box-sizing: border-box; */
     max-width: 1150px;
-    height: 357px;
     margin: 0 auto;
-    border-collapse: collapse;
+    margin-left: -500;
+    background:  #E5E5E5;
     border: 1px solid #EFEFEF;
-    background: #FFFFFF;  
+      /* margin-left: 150px; */
 }
 
-th, td {
-    width: 300px;
-    height: 55px;
+th, td {height: 107px;
+    border-collapse: collapse;
+    border: 1px solid #EFEFEF;
+    background: #FFFFFF;
+    width: 350px;
+    /* height: 85px; */
+    padding-top: 30px 30px ;
 }
 
 .card1 {
@@ -374,7 +405,7 @@ input {
 
 .button2:hover {
     text-decoration: underline;
-    background: #f6ff00;
+    background: #7423e5;
     transition: 0.3s;
 }
 
@@ -395,7 +426,7 @@ input {
 
 .button3:hover {
     text-decoration: underline;
-    background: #f6ff00;
+    background: #7423e5;
     transition: 0.3s;
 }
 
@@ -438,13 +469,6 @@ input {
 }
 
 a {
-    display: inline-block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
     text-decoration: none;
     border: none;
     display: block;
